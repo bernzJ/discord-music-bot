@@ -4,7 +4,8 @@
   "description": "Using npm discord.js-musicbot-addon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,9 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "discord.js-musicbot-addon": "^10.1.4",
+    "express": "^4.16.3",
     "ffmpeg-binaries": "^3.2.2-3",
-    "node-opus": "^0.2.7",
-    "hoek": "^4.2.1"
+    "hoek": "^4.2.1",
+    "node-opus": "^0.2.7"
   }
 }
